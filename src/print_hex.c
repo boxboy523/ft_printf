@@ -6,7 +6,7 @@
 /*   By: junyekim <junyekim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/24 16:24:05 by junyekim          #+#    #+#             */
-/*   Updated: 2023/11/25 21:36:36 by junyekim         ###   ########.fr       */
+/*   Updated: 2023/11/25 21:55:18 by junyekim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,14 +61,3 @@ int	print_ptr(void *p, t_darr *arr)
 	free(str);
 	return (rtn);
 }
-/*
-#include <stdio.h>
-int main(void)
-{
-	void	*p;
-	char	c;
-
-	c = 1;
-	p = &c;
-	printf("%s, %p\n", hexdump(p), p);
-}*/

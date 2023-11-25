@@ -6,7 +6,7 @@
 /*   By: junyekim <junyekim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/24 14:11:56 by junyekim          #+#    #+#             */
-/*   Updated: 2023/11/25 21:39:09 by junyekim         ###   ########.fr       */
+/*   Updated: 2023/11/25 21:55:10 by junyekim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,16 +77,3 @@ int	fmt_flag(char f, va_list ap, t_darr *arr)
 		rtn = darr_append(arr, '%') * 2 + 1;
 	return (rtn);
 }
-
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	int	i;
-
-	ft_printf(" %p ", -1);
-	printf(" %p ", -1);
-	return (0);
-}
-*/
